@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+  "target": "ES2021",
+    "outDir": "dist",
+    "noEmit": false,
+    "allowJs": true,
+    "checkJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "types": ["node"],
+  "include": ["src/**/*"],
+  "module": "commonjs"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "module-3-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "compile": "tsc -b",
+    "start:dev": "nodemon src/index.ts",
+    "start": "pm2 start src/index.ts --name network",
+    "stop": "pm2 stop network",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "pm2": "^5.3.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "uuid": "^9.0.1"
+  }
+}
